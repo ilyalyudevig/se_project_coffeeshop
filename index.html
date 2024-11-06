@@ -13,7 +13,6 @@
       content="Tel Aviv specialty coffee shop, best coffee in Tel Aviv, artisan coffee near me, Tel Aviv coffee roasters, locally roasted coffee in Tel Aviv, handcrafted coffee drinks Tel Aviv, third-wave coffee shop Tel Aviv, Tel Aviv coffee tasting experience, single-origin coffee near me, best espresso in Tel Aviv, unique coffee drinks in Tel Aviv, organic coffee in Tel Aviv, freshly roasted coffee Tel Aviv, top-rated coffee shop in Tel Aviv, local coffeehouse vibes Tel Aviv"
     />
     <title>The Daily Grind</title>
-    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,16 +35,19 @@
             <li><a class="nav__link" href="#reservation">Book a table</a></li>
             <li><a class="nav__link" href="#recipes">Recipes</a></li>
             <li><a class="nav__link" href="#menu">Menu</a></li>
-            <li><a class="nav__link" href="#about">Contacts</a></li>
+            <li><a class="nav__link" href="#contacts">Contacts</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="header__span-accent">Specialty&nbsp;coffee</span>
-          in&nbsp;the&nbsp;Triple&nbsp;Peaks&nbsp;Library
+          <span class="header__span-accent">Specialty coffee</span>
+          <span class="header__span-line">in the Triple Peaks Library</span>
         </h1>
         <p class="header__description">
-          Welcome to our study zone! We've got the coffee to energize you
-          and&nbsp;the cozy vibes to help you get creative.
+          <span class="header__span-line"
+            >Welcome to our study zone! We've got the coffee to energize
+            you</span
+          >
+          and the cozy vibes to help you get creative.
         </p>
         <img
           class="header__image"
@@ -161,10 +163,154 @@
             </div>
           </form>
         </section>
-        <section class="menu" id="menu"></section>
-        <section class="about" id="about"></section>
+        <section class="menu" id="menu">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">
+            <span class="menu__subtitle-span"
+              >We brew coffee from locally roasted, Fairtrade certified beans
+              and use biodegradable</span
+            >
+            cups. All teas from our collection are $2/cup.
+          </p>
+          <div class="menu__cards">
+            <ul class="menu__card card">
+              <h3 class="card__title">Filter</h3>
+              <li class="card__list-item">
+                Regular (12 oz)&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$1
+              </li>
+              <li class="card__list-item">
+                Large (16 oz)&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$1.25
+              </li>
+              <li class="card__list-item">
+                XL (20 oz)&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$1.5
+              </li>
+              <li class="card__list-item">
+                Party-size (24 oz, decaf)&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$1.75
+              </li>
+              <li class="card__list-item">
+                Iced Coffee (16 oz)&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$1.25
+              </li>
+            </ul>
+            <ul class="menu__card card">
+              <h3 class="card__title">Espresso</h3>
+              <li class="card__list-item">
+                Macchiato&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$2.25
+              </li>
+              <li class="card__list-item">
+                Cortado&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$2.5
+              </li>
+              <li class="card__list-item">
+                Mocha&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$3
+              </li>
+              <li class="card__list-item">
+                Sunrise in the Bay Area (decaf)&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$10
+              </li>
+            </ul>
+            <ul class="menu__card card">
+              <h3 class="card__title">Baked Goods</h3>
+              <li class="card__list-item">
+                Almond Croissant&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$2
+              </li>
+              <li class="card__list-item">
+                Banana Bread&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$1.75
+              </li>
+              <li class="card__list-item">
+                XL (20 oz)&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$1.5
+              </li>
+              <li class="card__list-item">
+                Key Lime Pie&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$3
+              </li>
+              <li class="card__list-item">
+                Blue Velvet Cake&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$3.75
+              </li>
+              <li class="card__list-item">
+                Web Cookie&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$2
+              </li>
+              <li class="card__list-item">
+                Fresh Bug’uette&nbsp;
+                <span class="card__list-divider"> </span>
+                &nbsp;$0.25
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="about" id="about">
+          <h2 class="about__title">About the coffeeshop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Triple Peaks Library. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="contacts">
+        <div class="footer__content">
+          <img class="footer__logo" src="images/logo_coffeeshop_light.svg" />
+          <div class="footer__column">
+            <h2 class="footer__social-heading">Social media</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#"
+                  ><img
+                    class="footer__social-icon"
+                    src="images/facebook_white.svg"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#"
+                  ><img
+                    class="footer__social-icon"
+                    src="images/instagram_white.svg"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2024 Ilya Lyudevig</p>
+      </footer>
     </div>
   </body>
 </html>

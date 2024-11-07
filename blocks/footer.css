@@ -21,9 +21,10 @@
 }
 
 .footer__social-heading {
-  margin: 0;
-  margin-bottom: 20px;
-  font-weight: bold;
+  margin: 0 0 20px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .footer__list {
@@ -58,6 +59,5 @@
 }
 
 .footer__copyright {
-  margin: 0;
-  margin-top: 108px;
+  margin: 108px 0 0;
 }

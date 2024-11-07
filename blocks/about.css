@@ -37,7 +37,7 @@
 .about__content {
   max-width: 660px;
   margin: 19px 0 73px 0;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
